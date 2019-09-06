@@ -2,10 +2,13 @@ body{
   margin: 0;
   padding: 0;
   background-color: white;
+  color: white;
 }
 
 .header{
   height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
 
 .center{
@@ -13,4 +16,46 @@ body{
   align-items: center;
   justify-content: center;
 }
+
+.form-group{
+  width: 250px;
+}
+
+.btn{
+  width: 100%;
+}
+
+#result{
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  font-size: 40px;
+  background-color: rgba(0,0,0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.image-home{
+  background-image: url('andromede.jpg');
+}
+
+.hiver{
+  background-image: url('./assets/hiver.jpg');
+}
+
+.automne{
+  background-image: url('./assets/automne.jpg');
+}
+
+.printemps{
+  background-image: url('./assets/printemps.jpg');
+}
+
+.été{
+  background-image: url('./assets/ete.jpg');
+}
+
+
+
 

@@ -4,13 +4,14 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <title>Open weather app</title>
 </head>
 <body>
-  <div class="header center">
-    <form>
+  <div class="header image-home center">
+    <form id="formulaire">
     <div class="form-group">
-        <input type="text" class="form-control" id="userInput" aria-describedby="emailHelp" placeholder="Enter place">
+        <input type="text" class="form-control btn-lg" id="userInput" aria-describedby="emailHelp" placeholder="Enter place">
       </div>
       <button type="submit" class="btn btn-primary" id="userSend">GO !</button>
     </form>
